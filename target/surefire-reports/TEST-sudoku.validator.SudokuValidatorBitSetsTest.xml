@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" skipped="0" tests="8" time="0.031" failures="0" name="sudoku.validator.SudokuValidatorBitSetsTest">
+  <properties>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="C:\Programme\Java\jdk1.5.0\jre\bin" name="sun.boot.library.path"/>
+    <property value="1.5.0-b64" name="java.vm.version"/>
+    <property value="Sun Microsystems Inc." name="java.vm.vendor"/>
+    <property value="http://java.sun.com/" name="java.vendor.url"/>
+    <property value=";" name="path.separator"/>
+    <property value="true" name="guice.disable.misplaced.annotation.check"/>
+    <property value="Java HotSpot(TM) Client VM" name="java.vm.name"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="GB" name="user.country"/>
+    <property value="Service Pack 3" name="sun.os.patch.level"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="C:\Programme\eclipse\workspace\Sudoku" name="user.dir"/>
+    <property value="1.5.0-b64" name="java.runtime.version"/>
+    <property value="sun.awt.Win32GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="C:\Programme\Java\jdk1.5.0\jre\lib\endorsed" name="java.endorsed.dirs"/>
+    <property value="x86" name="os.arch"/>
+    <property value="C:\DOKUME~1\andy\LOKALE~1\Temp\" name="java.io.tmpdir"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="" name="user.variant"/>
+    <property value="Windows XP" name="os.name"/>
+    <property value="C:\Programme\apache-maven-3.1.1\bin\..\bin\m2.conf" name="classworlds.conf"/>
+    <property value="Cp1252" name="sun.jnu.encoding"/>
+    <property value="C:\Programme\Java\jdk1.5.0\bin;.;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Programme\QuickTime\QTSystem\;C:\Programme\Java\jdk1.5.0\bin;C:\Programme\apache-maven-3.1.1\bin" name="java.library.path"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="HotSpot Client Compiler" name="sun.management.compiler"/>
+    <property value="5.1" name="os.version"/>
+    <property value="C:\Dokumente und Einstellungen\andy" name="user.home"/>
+    <property value="Europe/Berlin" name="user.timezone"/>
+    <property value="sun.awt.windows.WPrinterJob" name="java.awt.printerjob"/>
+    <property value="Cp1252" name="file.encoding"/>
+    <property value="1.5" name="java.specification.version"/>
+    <property value="andy" name="user.name"/>
+    <property value="C:\Programme\apache-maven-3.1.1\bin\..\boot\plexus-classworlds-2.5.1.jar" name="java.class.path"/>
+    <property value="info" name="org.slf4j.simpleLogger.defaultLogLevel"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="C:\Programme\Java\jdk1.5.0\jre" name="java.home"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="en" name="user.language"/>
+    <property value="sun.awt.windows.WToolkit" name="awt.toolkit"/>
+    <property value="mixed mode" name="java.vm.info"/>
+    <property value="1.5.0" name="java.version"/>
+    <property value="C:\Programme\Java\jdk1.5.0\jre\lib\ext" name="java.ext.dirs"/>
+    <property value="C:\Programme\Java\jdk1.5.0\jre\lib\rt.jar;C:\Programme\Java\jdk1.5.0\jre\lib\i18n.jar;C:\Programme\Java\jdk1.5.0\jre\lib\sunrsasign.jar;C:\Programme\Java\jdk1.5.0\jre\lib\jsse.jar;C:\Programme\Java\jdk1.5.0\jre\lib\jce.jar;C:\Programme\Java\jdk1.5.0\jre\lib\charsets.jar;C:\Programme\Java\jdk1.5.0\jre\classes" name="sun.boot.class.path"/>
+    <property value="Sun Microsystems Inc." name="java.vendor"/>
+    <property value="C:\Programme\apache-maven-3.1.1\bin\.." name="maven.home"/>
+    <property value="\" name="file.separator"/>
+    <property value="http://java.sun.com/cgi-bin/bugreport.cgi" name="java.vendor.url.bug"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="windows" name="sun.desktop"/>
+    <property value="" name="sun.cpu.isalist"/>
+  </properties>
+  <testcase classname="sudoku.validator.SudokuValidatorBitSetsTest" time="0" name="incorrectNumber11InSudokuGridFromFile"/>
+  <testcase classname="sudoku.validator.SudokuValidatorBitSetsTest" time="0.016" name="invalidSudokuGridFromFile"/>
+  <testcase classname="sudoku.validator.SudokuValidatorBitSetsTest" time="0" name="invalidSudoku2GridFromFile"/>
+  <testcase classname="sudoku.validator.SudokuValidatorBitSetsTest" time="0" name="nonExistentSudokuGridFile"/>
+  <testcase classname="sudoku.validator.SudokuValidatorBitSetsTest" time="0" name="validSudokuGrid2"/>
+  <testcase classname="sudoku.validator.SudokuValidatorBitSetsTest" time="0.015" name="not9x9SudokuGridFromFile"/>
+  <testcase classname="sudoku.validator.SudokuValidatorBitSetsTest" time="0" name="incorrectCharacterInSudokuGridFromFile"/>
+  <testcase classname="sudoku.validator.SudokuValidatorBitSetsTest" time="0" name="validSudokuGrid"/>
+</testsuite>
